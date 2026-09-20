@@ -138,6 +138,23 @@
           border-bottom: 4px solid #7bf27b;
           }    
           
+    .descriptor {
+        height: 180px;
+        font-size: clamp(9px, 2.5vw, 14px);
+        max-width: 420px;
+        width:70%;
+        padding-top: 50px;
+        padding-left: 8px;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+        } 
+            
+    @media (max-width: 600px) {
+    .descriptor {
+        width: 55%;
+    }
+} 
     .table-top {          
           background: linear-gradient(to bottom, #ffffff, #ecb9f6);
           height: 30px;
@@ -202,17 +219,7 @@
 
         <main>
         <!-- DESCRIPTOR -->
-        <div style=
-        "height: 180px;
-        font-size: clamp(9px, 2.5vw, 14px);
-        max-width: 420px;
-        width:70%;
-        padding-top: 50px;
-        padding-left: 8px;
-        align-items: center;
-        justify-content: center;
-        text-align: justify;
-        ">
+        <div class="descriptor">
         click the <span class="navi">pink link on the left</span> to open each work.
         while taking inspirations from any of these works is totally fine, it is recommended to disclose any kind of relevant influence my works 
         might have on yours (and vice versa!) to avoid any kinds of confusions and accusations. that being said, <u>plagiarism is strongly prohibited.</u>
