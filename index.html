@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>the big book of entanglement, mishaps, and whatnots</title>
+<link rel="icon" href="aqua.webp" type="image/webp">
+    <style>
+    /*important color bank
+    #ecb9f6 violet
+    */
+        
+    body  {
+          color: #0000ff;
+          font-size: 14px;
+          font-family: Arial;
+          letter-spacing: 1px;
+          border-radius: 5px;
+          text-shadow: 1px 1px 2px rgba(0, 0, 255, 0.4);
+          margin: 0;
+          background: #ffffff;
+          width: 100%;
+          max-width: 600px;
+          margin: 0 auto;
+          overflow-x: hidden;
+          }
+
+    .phone {
+          width: 100%;
+          max-width: 600px;
+          min-height: 100vh;
+          margin: 0 auto;
+          overflow-x: hidden;
+          position: relative;
+          }
+
+    header.MYNAME {
+          padding: 2px;
+          color: #8c1430;
+          background-color: #ffff58;
+          font-family: Verdana;
+          font-size: 9px;
+          text-transform: uppercase;
+          position: fixed;
+          top: 0px;
+          text-shadow: none;
+          text-align: center;
+          width: 100%;
+          max-width: 600px;
+          }
+
+    table {
+          padding: 2px;
+          padding-left: 0;
+          padding-top: 0;
+          border: 1px solid transparent;
+          border-radius: 20px;
+          vertical-align: middle;
+          text-align: left;
+          width: 100%;
+          max-width: 100%;
+          }
+              
+          th, td {
+              border: 1px solid transparent;
+              padding: 2px;
+              vertical-align: middle;
+              text-align: left;
+              }
+
+          th {
+              position: sticky;
+              top: 0;
+              z-index: 10;
+              background-color: rgba(255, 255, 255, 0.8);
+              border: none;
+              }
+              
+          th:nth-child(2),
+          td:nth-child(2) {
+              line-height: 1.8;
+              }
+
+          td.desc  {
+            color: #141414;
+            text-shadow: none;
+            font-family: Verdana;
+            font-size: 10px;
+            }
+
+    a     {
+          color: #0000ff;
+          text-decoration: none;
+          }
+
+    a:hover {
+          color: #ff0000;
+          background: #ffff00;
+          }
+
+    a.navi {
+          color: #ff4492;
+          background: transparent;
+          text-decoration: none;
+          text-shadow: 1px 1px 2px rgba(255, 68, 146, 0.4);
+          }
+
+    a.navi:hover {
+          background: linear-gradient(to bottom, #ffffff, #7bf27b);
+          text-decoration: none;
+          text-shadow: none;
+          }
+          /*SAFEGUARD   
+          font-size: 12px;
+          letter-spacing: -0.3px;
+          text-transform: uppercase;
+          */
+
+    a.navi:hover::after {
+          content: "?";
+          color: #ffff58;
+          font-weight: bold;
+          }
+          
+    .navi {
+          color: #ff4492;
+          background: transparent;
+          text-decoration: none;
+          text-shadow: 1px 1px 2px rgba(255, 68, 146, 0.4);
+          }
+    .mainpair {
+          font-weight: bold;
+          font-style: italic;
+          letter-spacing: 0.2px;
+          color: #ff4492;
+          background: linear-gradient(to bottom, #ffff58, #ffffff);
+          border-bottom: 4px solid #7bf27b;
+          }    
+          
+    .table-top {          
+          background: linear-gradient(to bottom, #ffffff, #ecb9f6);
+          height: 30px;
+          border-radius: 20px 20px 0 0;
+          margin: 0px; 
+          }      
+          
+    .table-scroll {
+          width: 100%;
+          max-width: 600px;
+          max-height: 400px;
+          overflow-y: auto;
+          overflow-x: hidden;
+          }
+
+    .table-bottom {          
+          background: linear-gradient(to bottom, #ecb9f6, #ffffff);
+          height: 30px;
+          border-radius: 0 0 20px 20px;
+          margin: 0px; 
+          } 
+    /* SCROLLBAR BCS I KEEP FORGETTING THE SELECTOR NAME*/
+    ::-webkit-scrollbar {
+          width: 8px;
+          }
+
+    ::-webkit-scrollbar-track {
+          background: #ffffff;
+          }
+
+    ::-webkit-scrollbar-thumb {
+          background: #0000ff;
+          border-radius: 5px;
+          }
+
+    ::-webkit-scrollbar-thumb:hover {
+          background: #ff0000;
+          }
+
+    main {
+      padding: 5px;
+      padding-left: 0;
+      padding-right: 2px;
+      }
+
+    footer {
+      padding: 5px;
+      padding-left: 0;
+      padding-right: 2px;
+      }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="phone">
+
+        <header class="MYNAME">
+        <marquee scrollamount="3"> © 2026 meorijane · All rights reserved</marquee>
+        </header>
+
+        <main>
+        
+        <div style=
+        "height: 180px;
+        width: 420px;
+        padding-top: 50px;
+        padding-left: 8px;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+        ">
+        click the <span class="navi">pink link on the left</span> to open each work.
+        while taking inspirations from any of these works is totally fine, it is recommended to disclose any kind of relevant influence my works 
+        might have on yours (and vice versa!) to avoid any kinds of confusions and accusations. that being said, <u>plagiarism is strongly prohibited.</u>
+        please also do not repost the entirety of any of my stories or works anywhere else (not even with full credit)        
+        </div>
+        
+        <img src="jwreads.png" alt="" height="250px" style="position:absolute; top: -8px; right:10px;">
+        <div class="table-top"></div>
+        <div class="table-scroll">        
+        <table>
+        <colgroup>
+        <col style="width: 40%;">
+        <col style="width: 20%;">
+        <col style="width: 30%;">
+        <col style="width: 10%;">
+        </colgroup>
+          <thead>
+          <tr>
+                  <th>title</th>
+                  <th>pair</th>
+                  <th>tags</th>
+                  <th>type</th>
+          </tr>
+          </thead>
+
+    <tbody>
+
+    <tr>
+        <td><a href="https://twitter.com/meorijane/status/1585638716286341122" target="_blank" class="navi">all my traces of you</a></td>
+        <td class="desc"><span class="mainpair">yangsun</span>, bbangsaz</td>
+        <td class="desc">fantasy, angst, romance, psychological horror</td>
+        <td class="desc">long au</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://twitter.com/meorijane/status/1672496220689027073" target="_blank" class="navi">asmara lewat</a></td>
+        <td class="desc"><b>ensemble</b></td>
+        <td class="desc">graphic novel, romance, antology</td>
+        <td class="desc">narrative</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://twitter.com/meorijane/status/1752712290431099085" target="_blank" class="navi">asmara lewat (PDF)</a></td>
+        <td class="desc"><span class="mainpair">id.</span></td>
+        <td class="desc"></td>
+        <td class="desc"></td>
+    </tr>
+
+    <tr>
+        <td><a href="https://twitter.com/meorijane/status/1614994613185687554" target="_blank" class="navi">being honest</a></td>
+        <td class="desc"><span class="mainpair">bbangsaz</span></td>
+        <td class="desc">friends to lovers, comedy, love confession</td>
+        <td class="desc">shorts</td>
+    </tr>
+
+    <tr>
+        <td><a href="#" target="_blank" class="navi">broadcast message</a></td>
+        <td class="desc"><span class="mainpair">bbangsaz</span></td>
+        <td class="desc">comedy, romance, y2k graphic, no plot</td>
+        <td class="desc">shorts</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://twitter.com/meorijane/status/1493578457506213890" target="_blank" class="navi">but friends don't know the way you taste</a></td>
+        <td class="desc"><span class="mainpair">heehoon</span>, eunshim, jaywon</td>
+        <td class="desc">r-18 uni!au, fwb, angst, fluff, hurt-comfort, slice of life, comedy</td>
+        <td class="desc">long au</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://twitter.com/meorijane/status/1724766901052789055" target="_blank" class="navi">call me by my name</a> *</td>
+        <td class="desc"><span class="mainpair">jayhoon</span>, yangsun, past!heejay</td>
+        <td class="desc">r-18 drama, romance, angst, hurt/comfort, sci-fi</td>
+        <td class="desc">long au</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://twitter.com/meorijane/status/1543847458580865025" target="_blank" class="navi">deep blu sea</a></td>
+        <td class="desc"><span class="mainpair">heehoon</span>, eunshim, jaywon</td>
+        <td class="desc">divers!au, meet cute, summer fling, drama, romance, angst</td>
+        <td class="desc">long au</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://somersault.notion.site/dimas-haikal-b403efc5389e47dbb5cee7711fb446b9" target="_blank" class="navi">dimas &amp; haikal</a> *</td>
+        <td class="desc"><span class="mainpair">jayhoon</span></td>
+        <td class="desc">uni!au, fluff, twin!aistumn, friends with benefit</td>
+        <td class="desc">series</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://somersault.notion.site/friends-with-feelings-6ef491b563334e2b9362d480c49e5792" target="_blank" class="navi">friends (with feelings)</a> *</td>
+        <td class="desc"><span class="mainpair">heehoon</span></td>
+        <td class="desc">uni!au, fluff, without plot</td>
+        <td class="desc">series</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://twitter.com/meorijane/status/1765369311231906140" target="_blank" class="navi">guru geografi bf, finance bro bf</a></td>
+        <td class="desc"><span class="mainpair">sungwon</span>, <span class="mainpair">heesun</span></td>
+        <td class="desc">romance, established relationship, slice of life, comedy</td>
+        <td class="desc">series</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://twitter.com/meorijane/status/1727001714597961970" target="_blank" class="navi">google, kodomo, jagoan</a></td>
+        <td class="desc"><span class="mainpair">jaywon</span></td>
+        <td class="desc">uni!au, getting together, fluff</td>
+        <td class="desc">shorts</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://twitter.com/meorijane/status/1738545818905518179" target="_blank" class="navi">happy mother's day (from komunal)</a></td>
+        <td class="desc"><span class="mainpair">heehoon</span></td>
+        <td class="desc">anal sex, pwp, feminization, impregnation kink, implied unprotected sex</td>
+        <td class="desc">narrative</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://twitter.com/meorijane/status/1675494585894567936" target="_blank" class="navi">komunal</a> *</td>
+        <td class="desc"><span class="mainpair">yangsun, heehoon</span></td>
+        <td class="desc">uni!au, fluff, comedy, slice of life, slight angst, eventual sexual theme</td>
+        <td class="desc">long au</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://somersault.notion.site/555c1ea210db4e6eae7c4d80dfed2f53?v=d3435e71ce214e5d803e1d53e808452a&amp;pvs=4" target="_blank" class="navi">komunal (supplementaries)</a> *</td>
+        <td class="desc"><span class="mainpair">yangsun, heehoon</span></td>
+        <td class="desc">(series of shorts from the long au)</td>
+        <td class="desc">series</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://twitter.com/meorijane/status/1631973076253683715" target="_blank" class="navi">mainan kucing</a></td>
+        <td class="desc"><span class="mainpair">yangsun</span></td>
+        <td class="desc">comedy, fluff</td>
+        <td class="desc">shorts</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://twitter.com/meorijane/status/1591831209315037184" target="_blank" class="navi">membantu sunoo &amp; jungwon</a></td>
+        <td class="desc"><span class="mainpair">yangsun</span></td>
+        <td class="desc">comedy, romance, fluff</td>
+        <td class="desc">shorts</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://archiveofourown.org/works/39717525" target="_blank" class="navi">pool cleaning business</a></td>
+        <td class="desc"><span class="mainpair">jayhoon</span></td>
+        <td class="desc">r-18 frottage, hand jobs, semi-public sex, dom/sub undertones</td>
+        <td class="desc">narrative</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://somersault.notion.site/rassya-rio-590a3196d0df4718b4f99f3431ec178f" target="_blank" class="navi">rassya &amp; rio</a> *</td>
+        <td class="desc"><span class="mainpair">yangsun</span></td>
+        <td class="desc">hs!au, uni!au, fluff, getting to know each other, coming of age, long distance relationship</td>
+        <td class="desc">series</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://twitter.com/meorijane/status/1592146662470078465" target="_blank" class="navi">secret jealousy</a></td>
+        <td class="desc"><span class="mainpair">bbangsaz</span></td>
+        <td class="desc">comedy, romance, high school crush</td>
+        <td class="desc">shorts</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://archiveofourown.org/works/37767895" target="_blank" class="navi">somewhere along the way</a></td>
+        <td class="desc"><span class="mainpair">heehoon</span></td>
+        <td class="desc">office!au, police!au, flirting, talking stage</td>
+        <td class="desc">narrative</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://twitter.com/meorijane/status/1605235369133633537" target="_blank" class="navi">staying in the middle</a></td>
+        <td class="desc"><span class="mainpair">bbangsaz</span></td>
+        <td class="desc">hs!au, crush, first love, coming of age</td>
+        <td class="desc">shorts</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://archiveofourown.org/works/47411689" target="_blank" class="navi">tangerine</a></td>
+        <td class="desc"><span class="mainpair">jakewon</span></td>
+        <td class="desc">uni!au, romance, getting to know each other</td>
+        <td class="desc">narrative</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://twitter.com/meorijane/status/1523573582026387458" target="_blank" class="navi">the boredom is the reason i started swimming</a> -</td>
+        <td class="desc"><span class="mainpair">jaywon</span></td>
+        <td class="desc">uni!au, getting to know each other, self-discovery, slowburn, comedy, angst</td>
+        <td class="desc">long au</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://twitter.com/meorijane/status/1736060015176556733" target="_blank" class="navi">the enha poly</a></td>
+        <td class="desc"><span class="mainpair">sunsun, yangsun</span></td>
+        <td class="desc">comedy, romance, polyamory, an accidental attempt on nooreun</td>
+        <td class="desc">shorts</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://twitter.com/meorijane/status/1740043170761916561" target="_blank" class="navi">the enha poly #2</a></td>
+        <td class="desc"><span class="mainpair">heehoon</span></td>
+        <td class="desc">comedy, implied!poly</td>
+        <td class="desc">shorts</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://twitter.com/meorijane/status/1740411875115102430" target="_blank" class="navi">the enha poly #3</a></td>
+        <td class="desc"><span class="mainpair">heehoon, jakehoon, jayhoon</span></td>
+        <td class="desc">comedy, hoonreun</td>
+        <td class="desc">shorts</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://twitter.com/meorijane/status/1594288511397810176" target="_blank" class="navi">the friendzone club</a></td>
+        <td class="desc"><span class="mainpair">bbangsaz</span>, yangsun</td>
+        <td class="desc">comedy, hs!au, romance, pining</td>
+        <td class="desc">shorts</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://twitter.com/meorijane/status/1563521757700845569" target="_blank" class="navi">the prom king</a> -</td>
+        <td class="desc"><span class="mainpair">yangsun</span>, ningrina, jongchel</td>
+        <td class="desc">hs!au, fake dating, fluff, angst, coming of age, friends to lovers, unrequited love</td>
+        <td class="desc">long au</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://twitter.com/meorijane/status/1625808418115305472" target="_blank" class="navi">the XSTJs</a></td>
+        <td class="desc"><span class="mainpair">yangsun, bbangsaz</span></td>
+        <td class="desc">comedy, romance, pining</td>
+        <td class="desc">shorts</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://twitter.com/meorijane/status/1632803375661350913" target="_blank" class="navi">this is how i met your father</a> *</td>
+        <td class="desc"><span class="mainpair">jayhoon</span>, yangsun, eunshim</td>
+        <td class="desc">childhood friends to lovers, flash wedding, fluff, comedy, quarter life crisis</td>
+        <td class="desc">long au</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://twitter.com/meorijane/status/1575702118744588288" target="_blank" class="navi">weeb vs kpopper</a></td>
+        <td class="desc"><span class="mainpair">jayhoon</span></td>
+        <td class="desc">enemies to ons, comedy</td>
+        <td class="desc">shorts</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://twitter.com/meorijane/status/1562577899248828418" target="_blank" class="navi">yangsun's kkt</a></td>
+        <td class="desc"><span class="mainpair">yangsun</span></td>
+        <td class="desc">canon compliant, fluff</td>
+        <td class="desc">shorts</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://twitter.com/meorijane/status/1598659144185446400" target="_blank" class="navi">yangsun's twitter chaos</a></td>
+        <td class="desc"><span class="mainpair">yangsun</span></td>
+        <td class="desc">comedy, romance, fluff</td>
+        <td class="desc">shorts</td>
+    </tr>
+
+</tbody>
+
+        </table>
+        </div>
+        <div class="table-bottom"></div>
+       
+        </main>
+
+    </div>
+
+<script>
+const title = "the big book of entanglement, mishaps, and whatnots ✦ ";
+let i = 0;
+
+setInterval(() => {
+    document.title = title.substring(i) + title.substring(0, i);
+    i = (i + 1) % title.length;
+}, 150);
+</script>
+
+</body>
+</html>
