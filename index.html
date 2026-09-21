@@ -24,6 +24,23 @@
           max-width: 600px;
           margin: 0 auto;
           overflow-x: hidden;
+          position: relative;
+          }
+
+    body::before {
+          content: "";
+          position: fixed;
+          inset: 0;
+          background-image: url("bg.png");
+          background-repeat: repeat-x;
+          background-position: center top;
+          background-size: 250px;
+          opacity: 0.6;
+          z-index: -1;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 100%;
+          max-width: 600px;
           }
 
     .phone {
@@ -55,11 +72,11 @@
           padding-left: 0;
           padding-top: 0;
           border: 1px solid transparent;
-          border-radius: 20px;
           vertical-align: middle;
           text-align: left;
           width: 100%;
           max-width: 100%;
+          background-color: white;
           }
               
           th, td {
@@ -129,6 +146,7 @@
           text-decoration: none;
           text-shadow: 1px 1px 2px rgba(255, 68, 146, 0.4);
           }
+
     .mainpair {
           font-weight: bold;
           font-style: italic;
@@ -140,10 +158,11 @@
           
     .descriptor {
         height: 180px;
-        font-size: clamp(9px, 2.5vw, 14px);
+        font-size: clamp(9px, 2.5vw, 13px);
         max-width: 420px;
         width:70%;
-        padding-top: 50px;
+        padding-top: 35px;
+        padding-bottom: 15px;
         padding-left: 8px;
         align-items: center;
         justify-content: center;
@@ -221,19 +240,23 @@
     <div class="phone">
 
         <header class="MYNAME">
-        <marquee scrollamount="3"> © 2026 meorijane · All rights reserved</marquee>
+        <marquee scrollamount="3"> © 2026 meorijane · All rights reserved <img src="fishy.gif" alt="" style="height: 10px;"></marquee>
         </header>
 
         <main>
         <!-- DESCRIPTOR -->
         <div class="descriptor">
+        <div style="margin-left: 60px; padding: 12px; border: 3px solid black; background-color: white; border-radius: 20px;">
         click the <span class="navi">pink link on the left</span> to open each work.
         while taking inspirations from any of these works is totally fine, it is recommended to disclose any kind of relevant influence my works 
         might have on yours (and vice versa!) to avoid any kinds of confusions and accusations. that being said, <u>plagiarism is strongly prohibited.</u>
         please also do not repost the entirety of any of my stories or works anywhere else (not even with full credit)        
         </div>
+        </div>
         
-        <img src="jwreads.png" alt="" height="250px" style="position:absolute; top: -8px; right:10px;">
+        <img src="jwreads.png" alt="" width="140px" style="position:absolute; top: -8px; right:45px; z-index: 99999;">
+        <!-- w135 -->
+        <!-- h250 -->
         
         <div class="table-top"></div>
         <div class="table-scroll">        
