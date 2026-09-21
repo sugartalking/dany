@@ -171,9 +171,35 @@
             
     @media (max-width: 600px) {
     .descriptor {
-        width: 55%;
+        width: 65%;
     }
 } 
+    .textbox {
+          margin-left: 60px;
+          padding: 12px;
+          border: 3px solid black;
+          background-color: white;
+          border-radius: 20px;
+          }
+          
+    @media (max-width: 600px) {
+    .textbox {
+    margin-left: 15px;    
+    }
+}   
+    img.jw {
+          width: 140px;
+          position:absolute;
+          top: -8px;
+          right:45px;
+          z-index: 99999;
+          }
+    @media (max-width: 600px) {
+    img.jw {
+          right: 15px;
+          width: 135px;
+          }
+}
     .table-top {          
           background: linear-gradient(to bottom, #ffffff, #ecb9f6);
           height: 30px;
@@ -246,7 +272,7 @@
         <main>
         <!-- DESCRIPTOR -->
         <div class="descriptor">
-        <div style="margin-left: 60px; padding: 12px; border: 3px solid black; background-color: white; border-radius: 20px;">
+        <div class="textbox">
         click the <span class="navi">pink link on the left</span> to open each work.
         while taking inspirations from any of these works is totally fine, it is recommended to disclose any kind of relevant influence my works 
         might have on yours (and vice versa!) to avoid any kinds of confusions and accusations. that being said, <u>plagiarism is strongly prohibited.</u>
@@ -254,7 +280,7 @@
         </div>
         </div>
         
-        <img src="jwreads.png" alt="" width="140px" style="position:absolute; top: -8px; right:45px; z-index: 99999;">
+        <img src="jwreads.png" alt="" class="jw">
         <!-- w135 -->
         <!-- h250 -->
         
