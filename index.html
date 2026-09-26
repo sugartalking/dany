@@ -11,6 +11,17 @@
     #ecb9f6 violet
     */
         
+    html {
+          width: 100%;
+          min-height: 100%;
+          }
+
+    *,
+    *::before,
+    *::after {
+          box-sizing: border-box;
+          }
+
     body  {
           color: #0000ff;
           font-size: 14px;
@@ -20,8 +31,7 @@
           text-shadow: 1px 1px 2px rgba(0, 0, 255, 0.4);
           margin: 0;
           background: #ffffff;
-          width: 100%;
-          max-width: 600px;
+          width: min(100%, 600px);
           margin: 0 auto;
           overflow-x: hidden;
           position: relative;
@@ -39,14 +49,12 @@
           z-index: -1;
           left: 50%;
           transform: translateX(-50%);
-          width: 100%;
-          max-width: 600px;
+          width: min(100%, 600px);
           }
 
     .phone {
-          width: 100%;
-          max-width: 600px;
-          min-height: 100vh;
+          width: min(100%, 600px);
+          min-height: 100dvh;
           margin: 0 auto;
           overflow-x: hidden;
           position: relative;
@@ -63,8 +71,7 @@
           top: 0px;
           text-shadow: none;
           text-align: center;
-          width: 100%;
-          max-width: 600px;
+          width: min(100%, 600px);
           }
 
     table {
@@ -181,10 +188,11 @@
           }    
           
     .descriptor {
-        height: 180px;
+        min-height: clamp(180px, 23dvh, 220px);
+        height: auto;
         font-size: clamp(9px, 2.5vw, 13px);
         max-width: 420px;
-        width:70%;
+        width: clamp(65%, 70vw, 70%);
         padding-top: 35px;
         padding-bottom: 15px;
         padding-left: 8px;
@@ -212,16 +220,16 @@
     }
 }   
     img.jw {
-          width: 140px;
+          width: clamp(115px, 32vw, 140px);
           position:absolute;
           top: -8px;
-          right:45px;
+          right: clamp(0px, 7.5vw, 45px);
           z-index: 99999;
           }
     @media (max-width: 600px) {
     img.jw {
           right: 0px;
-          width: 130px;
+          width: clamp(115px, 32vw, 130px);
           }
 }
     span.ongoing,
@@ -260,14 +268,14 @@
     .table-scroll {
           width: 100%;
           max-width: 600px;
-          max-height: 400px;
+          max-height: clamp(350px, 45dvh, 600px);
           overflow-y: auto;
           overflow-x: hidden;
           }
 
     @media (max-width: 600px) {
     .table-scroll {
-    max-height: 350px;
+    max-height: clamp(330px, 45dvh, 500px);
     margin-left: 3px;
     }
 }
